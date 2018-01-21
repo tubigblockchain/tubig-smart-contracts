@@ -5,7 +5,7 @@ import "./Tubig.sol";
 contract TubigPreSale {
     Tubig public token;
     address public beneficiary;
-    address public alfatokenteam;
+    address public tubig;
     
     uint public amountRaised;
     
