@@ -12,7 +12,7 @@ contract Tubig is BurnableToken, UpgradeableToken {
   function Tubig(address _owner)  UpgradeableToken(_owner) {
     name = "Tubig";
     symbol = "TUB";
-    totalSupply = 10000000000;
+    totalSupply = 100000000;
     decimals = 2;
 
     balances[_owner] = totalSupply;
